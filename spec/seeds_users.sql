@@ -1,4 +1,4 @@
-TRUNCATE TABLE users RESTART IDENTITY; -- replace with your own table name.
+TRUNCATE TABLE users RESTART IDENTITY CASCADE; -- replace with your own table name.
 
 
 INSERT INTO users (name, username, email, password) VALUES ('Giorgio', 'giotheexplorer', 'giorgio.gristina@gmail.com', '123456');

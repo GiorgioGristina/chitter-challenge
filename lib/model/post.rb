@@ -1,6 +1,6 @@
 class Post
    
-    attr_accessor :id, :create_at, :content
+    attr_accessor :id, :creat_at, :content, :user_id
 
     
 end
